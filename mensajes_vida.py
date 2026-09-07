@@ -41,6 +41,3 @@ df.to_csv("citas_vida.csv", index=False, encoding="utf-8-sig")
 print(f"Se extrajeron {len(df)} citas.")
 print("Archivo citas_vida.csv creado correctamente.")
 """
-
-with open("scraper.py", "w", encoding="utf-8") as f:
-    f.write(script_code)
