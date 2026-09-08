@@ -36,8 +36,8 @@ for cita in citas:
 
 df = pd.DataFrame(datos)
 
-df.to_csv("citas_vida.csv", index=False, encoding="utf-8-sig")
+df.to_csv("mensajes_vida.csv", index=False, encoding="utf-8-sig")
 
 print(f"Se extrajeron {len(df)} citas.")
-print("Archivo citas_vida.csv creado correctamente.")
+print("Archivo mensajes_vida.csv creado correctamente.")
 """
