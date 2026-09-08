@@ -1,10 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-# Guardar el script completo en un archivo .py local
-script_code = """import requests
-from bs4 import BeautifulSoup
-import pandas as pd
 
 url = "https://quotes.toscrape.com/tag/life/"
 
@@ -40,4 +36,4 @@ df.to_csv("mensajes_vida.csv", index=False, encoding="utf-8-sig")
 
 print(f"Se extrajeron {len(df)} citas.")
 print("Archivo mensajes_vida.csv creado correctamente.")
-"""
+
